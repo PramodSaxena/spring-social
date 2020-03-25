@@ -99,6 +99,4 @@ public class AuthServerConfig extends AuthorizationServerConfigurerAdapter {
 		 public void configure(AuthorizationServerSecurityConfigurer oauthServer) throws Exception {
 		    oauthServer.allowFormAuthenticationForClients();
 		 }
-
 }
-
